@@ -39,7 +39,7 @@ export const Experience = () => {
                                 </span>
                             </h6>
                             <p className="mb-4 text-neutral-400">{experience.subject}</p>
-                             <span className="mr-2 mt-4 rounded bg-neutral-900 px-2 py-1 text-sm font-medium text-purple-800">
+                             <span className="mr-2 mt-4 rounded bg-neutral-900 px-2 py-1 text-sm font-medium text-purple-900">
                              {experience.percentage}
                              </span>
                         </motion.div>
