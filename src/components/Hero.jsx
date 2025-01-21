@@ -68,20 +68,7 @@ export const Hero = () => {
                     </div>
                 </div>
                 <div className="w-full lg:w-1/4 lg:pt-8 ">
-                    <motion.div 
-                        initial={{opacity:0, x:100}}
-                        whileInView={{opacity:1, x:0}}
-                        transition={{duration:0.5}}
-                        >
-                        <motion.div
-                            initial={{ y: -10 }}
-                            animate={{ y: [10, -10] }}
-                            transition={{ duration: 1, ease: "linear", repeat: Infinity, repeatType: "reverse" }}
-                            className="flex justify-center">
-                            <img
-
-                                className=" w-80 rounded-2xl" src={profilePic} alt="profilePic" />
-                        </motion.div>
+                    
                     </motion.div>
                 </div>
             </div>
