@@ -66,9 +66,9 @@ export const Hero = () => {
                         </motion.p>
                     </div>
                 </div>
-                //<div className="w-full lg:w-1/4 lg:pt-8 ">
+                <div className="w-full lg:w-1/4 lg:pt-8 ">
                   
-               // </div>
+                </div>
             </div>
         </div>
     )
